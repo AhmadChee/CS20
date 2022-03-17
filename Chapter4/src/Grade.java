@@ -9,7 +9,7 @@ Purpose: Create a grade application that prompts the user for the percentage ear
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- 
+ .
 
 */
 
