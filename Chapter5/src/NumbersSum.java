@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 /*
 
-Program: NumbersSum.java      Last Date of this Revision: 
+Program: NumbersSum.java      Last Date of this Revision: March 18, 2022
 
 Purpose: Create a NumbersSum application that prompts the user for a number and then displays the numbers 1 through the number entered, each on a separate line. Below the numbers, the sum is displayed. 
 
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- 
+ _
 
 */
 
