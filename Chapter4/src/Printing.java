@@ -9,7 +9,7 @@ Purpose: Create a Printing application that prompts the user for the number of c
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- 
+ _
 
 */
 
