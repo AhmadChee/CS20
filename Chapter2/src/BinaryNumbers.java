@@ -9,7 +9,7 @@ Purpose: Create a Binary Numbers application that illustrates the binary numbers
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- 
+ _
 
 */
 
