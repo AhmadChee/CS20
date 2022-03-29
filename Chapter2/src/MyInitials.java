@@ -7,7 +7,7 @@ Purpose: Create a Initial application that displays a initial of asterisks.
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- 
+ _
 
 */
 
