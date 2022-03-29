@@ -13,7 +13,7 @@ Course: Computer Science  20
 */
 
 
- public class Evens 
+public class Evens 
 {
 
  public static void main(String[] args) 
