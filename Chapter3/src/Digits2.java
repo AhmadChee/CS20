@@ -9,7 +9,7 @@ Purpose: Create a Digits application that prompts the user for a two-digit numbe
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- 
+ _
 
 */
 
