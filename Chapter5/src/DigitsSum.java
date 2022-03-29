@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 /*
 
@@ -12,6 +11,10 @@ Course: Computer Science  20
  _
 
 */
+
+import java.util.Scanner;
+
+
 public class DigitsSum
 {
 

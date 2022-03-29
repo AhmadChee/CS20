@@ -12,7 +12,6 @@ Course: Computer Science  20
 
 */
 
-import java.util.Scanner;
 
  public class Evens 
 {
