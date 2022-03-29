@@ -7,7 +7,7 @@ Purpose: Create a AccountSetup application which prompts the user for a user nam
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- _
+ 
 
 */
 
