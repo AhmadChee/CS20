@@ -7,7 +7,7 @@ Purpose: Create a AccountSetup application which prompts the user for a user nam
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- 
+ _
 
 */
 
@@ -18,13 +18,24 @@ public class AccountSetup
 
  public static void main(String[] args) 
     {
+	 
+	 String phase, eightletters;
+	 
+	 int user;
+	 int pass;
+	 
 	 Scanner input = new Scanner (System.in);
 	 
 	 System.out.print("Enter a user name:   " );//ask for user name
 	 
+	 phase = input.nextLine();
 	 
-	 
-	 System.out.print("Enter a password that is at least 8 characters:    ");//ask for password which is at least eight characters 
+	 for(int i = 0; i<=8; i++)
+	 {
+		 System.out.print("Enter a password that is at least 8 characters: ");//ask for password which is at least eight characters 
+	 }
+
+	
 	 
     }
  
