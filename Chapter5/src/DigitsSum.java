@@ -8,7 +8,7 @@ Purpose: Create a DigitsSum application that prompts the user for the non-negati
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- _
+ 
 
 */
 
