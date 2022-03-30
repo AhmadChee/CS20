@@ -9,7 +9,7 @@ Author: Ahmad Cheema,
 School: CHHS
 Course: Computer Science  20
  
-
+_
 */
 
 import java.util.Scanner;
@@ -39,7 +39,7 @@ public class DigitsSum
 		number = number / 10;  //removes the last digit from the number  
 		}  
 		 
-		System.out.println("The sum of the cubes of the digits is: "+sum);  //prints the result  
+		System.out.println("The sum of the digits is: "+sum);  //prints the result  
 		
 	}
 	
@@ -48,6 +48,6 @@ public class DigitsSum
 /* Screen Dump
 
 Enter a positive integer: 892
-The sum of the cubes of the digits is: 19
+The sum of the digits is: 19
 
 */
