@@ -20,7 +20,7 @@ public class AccountSetup
     {
 	 
 	 String phase, eightletters;
-	 
+	  
 	 int user;
 	 int pass;
 	 
@@ -33,7 +33,13 @@ public class AccountSetup
 	 for(int i = 0; i<=8; i++)
 	 {
 		 System.out.print("Enter a password that is at least 8 characters: ");//ask for password which is at least eight characters 
+		 
+		 eightletters = input.nextLine();
 	 }
+	 
+	 
+	 
+	 
 
 	
 	 
