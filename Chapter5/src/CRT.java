@@ -30,8 +30,8 @@ public class CRT
            total +=i:
            
          }
-   9. Two factors that should be considered when determining which loop structure to use are whether the number of times the loop will be executed is fixed and whether the loop 
-   should execute at least once.
+   9. Two factors that should be considered when determining which loop structure to use are whether the number of 
+   times the loop will be executed is fixed and whether the loop  should be executed at least once. 
  
  
  
