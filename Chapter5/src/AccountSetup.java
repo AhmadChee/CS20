@@ -56,10 +56,10 @@ public static void main(String[] args)
            		userInput = upass.next();
            		
            		if(userInput.equalsIgnoreCase("q"))
-           				{
-           					System.out.println("Your username is " + username + " and your password is " +password);//displays user name and password in lower case
+           		{
+           		  System.out.println("Your username is " + username + " and your password is " +password);//displays user name and password in lower case
            			
-           				}
+           		}
            		
               
 
