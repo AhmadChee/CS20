@@ -7,7 +7,7 @@ Purpose: The Guessing Game application created in Chapter 4 Exercise 9 would be 
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- _
+ 
 
 */
 
