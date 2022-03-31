@@ -1,6 +1,6 @@
 /*
  
-Program: AccountSetup.java      Last Date of this Revision: March 15, 2022
+Program: AccountSetup.java      Last Date of this Revision: March 31, 2022
  
  
 Purpose: Create a AccountSetup application which prompts the user for a user name or a password. 
