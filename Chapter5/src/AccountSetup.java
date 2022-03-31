@@ -3,7 +3,9 @@
 Program: AccountSetup.java      Last Date of this Revision: March 15, 2022
  
  
-Purpose: Create a AccountSetup application which prompts the user for a user name or a password. The application should prompt the user until a password with at least eight characters is entered. The user name and password should be converted to all lower case letters and then an appropriate message is displayed.  
+Purpose: Create a AccountSetup application which prompts the user for a user name or a password. 
+The application should prompt the user until a password with at least eight characters is entered. 
+The user name and password should be converted to all lower case letters and then an appropriate message is displayed.  
 
 Author: Ahmad Cheema, 
 School: CHHS
