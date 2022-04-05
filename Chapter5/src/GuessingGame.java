@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /*
 
-Program: GuessingGame.java      Last Date of this Revision: 
+Program: GuessingGame.java      Last Date of this Revision: April 5, 2022
 
 Purpose: The Guessing Game application created in Chapter 4 Exercise 9 would be more fun if users could make as many guesses as necessary to guess the secret number. 
 
