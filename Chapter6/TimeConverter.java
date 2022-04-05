@@ -2,13 +2,14 @@
 
 /*
 
-Program: TimeConverter.java      Last Date of this Revision: April 5
+Program: TimeConverter.java      Last Date of this Revision: April 5, 2022
 
-Purpose: Create a Evens application that displays the even numbers between 1 and 20, inclusive.
+Purpose: Create a TimeConverter application that allows the user to chosse among converting hours to minutes, days to hours, or hours into days. U
 
 Author: Ahmad Cheema, 
 School: CHHS
 Course: Computer Science  20
- _
+ 
 
 */
+
