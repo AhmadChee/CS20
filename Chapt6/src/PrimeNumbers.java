@@ -37,7 +37,7 @@ public class PrimeNumbers
 
 			if(isPrime(a)) 
 			{
-			  System.out.println("Prime numbers between "+ min +" and "+ max +": " + a);//tells the user which numbers are prime between the minimum range and the maximum range numbers
+			  System.out.println("Prime numbers between "+ min +" and "+ max +": " + a);//tells the user which numbers are prime between the minimum range and the max range numbers
 			}
 		  }
 	   }
