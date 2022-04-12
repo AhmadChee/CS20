@@ -20,15 +20,15 @@ public class PrimeNumbers
 
 	public static void main(String[] args) 
 	{
-		{
+	  {
 
-			Scanner input = new Scanner (System.in);
+		Scanner input = new Scanner (System.in);
 
-			System.out.print("Please enter the the first number (Minimum Range): ");//prompts the user to enter number in minimum range
+		System.out.print("Please enter the the first number (Minimum Range): ");//prompts the user to enter number in minimum range
 
 			int min = input.nextInt();
 
-			System.out.print("\nPlease enter the the second number (Maximum Range): ");//prompts the user to enter number in maximum range
+		System.out.print("\nPlease enter the the second number (Maximum Range): ");//prompts the user to enter number in maximum range
 
 			int max = input.nextInt();
 
@@ -37,7 +37,7 @@ public class PrimeNumbers
 
 			if(isPrime(a)) 
 			{
-			  System.out.println("Prime numbers between "+ min +" and "+ max +": " + a);//tells the user which numbers are prime between the minimum range and the max range numbers
+	    System.out.println("Prime numbers between "+ min +" and "+ max +": " + a);//tells the user which numbers are prime between the minimum range and the max range numbers
 			}
 		  }
 	   }
