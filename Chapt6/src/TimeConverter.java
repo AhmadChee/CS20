@@ -1,12 +1,19 @@
+/*
 
+Program: TimeConverter.java      Last Date of this Revision: April 12, 2022
 
+Purpose: Create a TimeConverter application that allows the user to choose among converting hours to minutes, days to hours, minutes to hours or hours to days. 
 
+Author: Ahmad Cheema, 
+School: CHHS
+Course: Computer Science  20
+ _
 
-
+*/
 
 import java.util.*;
 
-public class TimeC
+public class TimeConverter
 {
 	public static void hoursTominutes()
 	{
@@ -18,15 +25,17 @@ public class TimeC
 		
 		hTime = input.nextDouble();
 		
-		mTime =  (hTime) * 60);//formula of conversion between hours to minutes
+		mTime =  ((hTime) * 60);//formula of conversion between hours to minutes
 		
 		System.out.print("The time in minutes is " + mTime);//displays conversion from hours to minutes
 	}
-}
+
+
+
 
 public static void daysTohours()
 {
-	double dTIme, hTime;
+	double dTime, hTime;
 	
 	Scanner input = new Scanner(System.in);
 	
@@ -34,7 +43,7 @@ public static void daysTohours()
 	
 	dTime = input.nextDouble();
 	
-	hTime = (dTime * 24);//formula for conversion between days to hours
+	hTime = ((dTime) * 24);//formula for conversion between days to hours
 	
 	System.out.println("The time in hours is " + hTime);//displays conversion from days to hours
 }
@@ -66,8 +75,10 @@ public static void hoursTodays()
 	
 	dTime = (hTime * 0.0416667);//formula for conversion between hours to days
 	
-	System.out.println("The time in days will be" + dTime)//displays conversion from hours to days
+	System.out.println("The time in days will be" + dTime);//displays conversion from hours to days
 }
+
+
 
 
 public static void main(String[] args)
@@ -82,7 +93,7 @@ public static void main(String[] args)
 	System.out.println("4. Hours to Days conversion.");//fourth choice of conversion
 	
 	
-	System.out.println("Enter your conversionn choice:  ");//user enters conversion choice
+	System.out.println("Enter your conversion choice:  ");//user enters conversion choice
 	
 	choice = input.nextInt();
 	
@@ -104,15 +115,23 @@ public static void main(String[] args)
 	{
 		hoursTodays();	
 	}
-		
-
-
 	
-    
+}
 
+
+
+}
+		
 
 /* Screen Dump
 
-
+1. Hours to Minutes conversion.
+2. Days to Hours conversion.
+3. Minutes to Hours conversion.
+4. Hours to Days conversion.
+Enter your conversion choice:  
+1
+Enter a time in hours: 5
+The time in minutes is 300.0
 
 */
