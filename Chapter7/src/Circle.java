@@ -4,6 +4,8 @@
 public class Circle 
 {
 
+	public static final double PI = 3.14;
+	
 	private double radius;
 	
 	public Circle()//constructor method
@@ -32,6 +34,12 @@ public class Circle
 		return(radius);
 	}
 	
+	
+	public double circumference(double r)
+	{
+		
+		return( 2*PI*r);
+	}
 	
 	
 

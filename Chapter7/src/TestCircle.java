@@ -4,11 +4,15 @@ public class TestCircle
 
 	public static void main(String[] args) 
 	{
-		Circle o = new Circle (3);
+		Circle spot = new Circle();
+		
+		spot.setRadius(3);
+		System.out.println("Circle radius " + spot.getRadius());
+		System.out.println("Circle circumference: " + spot.circumference(3));
 		
 		
-		System.out.println("Circle has a radius " + o.getRadius());
-
+		
+		
 	}
 
 }
