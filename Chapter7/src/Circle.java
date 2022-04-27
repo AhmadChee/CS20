@@ -10,16 +10,12 @@ public class Circle
 	
 	public Circle()//constructor method
 	{
-		radius = 1; //default radius
-				
-	   
+		radius = 1; //default radius			   
 	}
 	
 	public Circle(double r)//constructor method2
 	{
 		radius = r;
-		
-		
 	}
 	
 	public void setRadius(double newRadius)
@@ -29,7 +25,6 @@ public class Circle
 	
 	
 	public double getRadius()  
-
 	{
 		return(radius);
 	}
@@ -39,6 +34,11 @@ public class Circle
 	{
 		
 		return( 2*PI*r);
+	}
+	
+	public double area(double r)
+	{
+		return(PI*(r*r));
 	}
 	
 	public static void displayAreaformula()
