@@ -28,7 +28,7 @@ public class Circle
 	}
 	
 	
-	public double getRadius()
+	public double getRadius()  
 
 	{
 		return(radius);
@@ -39,6 +39,11 @@ public class Circle
 	{
 		
 		return( 2*PI*r);
+	}
+	
+	public static void displayAreaformula()
+	{
+		System.out.println("The formula for the area of a circle is a=Pi*r*r");
 	}
 	
 	
