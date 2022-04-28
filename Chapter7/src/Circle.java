@@ -1,6 +1,6 @@
 /*
  
-Program: Circle.java      Last Date of this Revision: April 28
+Program: Circle.java      Last Date of this Revision: April 28, 2022
  
  
 Purpose: Modify the circle class to include a member method 
