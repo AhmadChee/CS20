@@ -4,11 +4,12 @@ import java.util.Scanner;
 public class TestAdder
 {
 
-	 int ran1, ran2;
+
 	    int tries = 1;
 	    int answer;
 	    int guess;
-
+	    
+	    
 	    public TestAdder(int trys, int ans) {
 	        tries = trys;
 	        answer = ans;
@@ -17,8 +18,9 @@ public class TestAdder
 	    public int getTry() 
 	    {
 	        Scanner input = new Scanner(System.in);
-	        ran1 = (int) (19 * Math.random());
-	        ran2 = (int) (19 * Math.random());
+	        int ran1 = (int) (19 * Math.random());
+	        int ran2 = (int) (19 * Math.random());
+
 	        answer = ran1 + ran2;
 
 	        do 
@@ -27,7 +29,8 @@ public class TestAdder
 	            guess = input.nextInt();
 	            if (guess == answer) 
 	            {
-	                return (tries);
+	               tries++;
+	               System.out.println(tries);
 	 
 	            } 
 	                
@@ -36,7 +39,7 @@ public class TestAdder
 	            {
 	                System.out.print ("Wrong answer. Enter another answer for ");
 	             
-	                if (tries >= 4) 
+	                if (tries <= 4) 
 	                {
 	                	
 	                
@@ -47,12 +50,14 @@ public class TestAdder
 	               
 	               
 	            }
-	        } while (tries <= 4 && answer != guess || guess != 999);
+	        } while ( guess != 999);
+	        
 	        return (tries);
 	    }
 
 	    public int getAns() {
 	        return (answer);
 	    }
+	    
 
 }
