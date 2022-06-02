@@ -1,6 +1,6 @@
 /*
 
-Program: StudentsRoster.java      Last Date of this Revision: 
+Program: StudentsRoster.java      Last Date of this Revision: May 31, 2022
 
 Purpose: Create a StudentRoster application that prompts the 
 user for the number of students in the class and then prompts 
@@ -50,3 +50,18 @@ public class StudentRoster
   }
   
 }
+
+/* Screen Dump
+
+Enter number of students: 
+2
+Enter 2 student names
+Ahmad
+Cheema
+
+Students are:
+
+Ahmad
+Cheema
+
+*/

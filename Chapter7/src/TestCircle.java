@@ -26,8 +26,8 @@ public class TestCircle
 		spot2.displayAreaformula();//displays formula for area of a circle
 		
 		
-		System.out.println("\n \n \n");
 		
+		System.out.println("\n \n \n");
 		
 		if (spot1.equals(spot2))
 		{

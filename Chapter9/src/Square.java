@@ -1,6 +1,6 @@
 /*
 
-Program: Squares.java      Last Date of this Revision: 
+Program: Squares.java      Last Date of this Revision: May 31, 2022
 
 Purpose: Create a Squares application that store the square of an 
 element's index in an integer array of 5 elements. 
@@ -18,23 +18,23 @@ public class Square
       public static void main(String[] args) 
        {
 
-      int [] arr;
+      int [] arr;//Array
 
-      arr = new int [5];
+      arr = new int [5];//Element
 
-      for (int i = 0; i < arr.length; i++) 
+      for (int i = 0; i < arr.length; i++)//Tracker
          {
 
-             arr[i] = i*i;
+             arr[i] = i*i;//formula for the elements of an array
 
          }
 
-        System.out.println("Elements of Array are >>");
+        System.out.println("Elements of Array are >>");//Output message for elements and values
 
-        for (int i = 0; i < arr.length; i++) 
+        for (int i = 0; i < arr.length; i++)//Adder starting from array of 0
         {
 
-           System.out.println("arr["+i+"] = "+arr[i]);
+           System.out.println("arr["+i+"] = "+arr[i]);//Outputs arrays with the values
 
         }
 
