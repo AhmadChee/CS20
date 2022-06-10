@@ -4,7 +4,7 @@
 import com.phidget22.*;
 
 
-public class BlinkLED1 
+public class BlinkLED2 
 {
     //Handle Exceptions | Exceptions will happen in your code from time to time. These are caused by unexpected things happening. Make sure you’ve added "throws Exception" to your main method.
     public static void main(String[] args) throws Exception
@@ -24,10 +24,9 @@ public class BlinkLED1
         while(true)
         {
             redLED.setState(true);
-            Thread.sleep(1000);
+            Thread.sleep(500);
             redLED.setState(false);
-            Thread.sleep(1000);
+            Thread.sleep(500);
         }
     }
 }
-  
